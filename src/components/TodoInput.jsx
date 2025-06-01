@@ -79,7 +79,7 @@ const TodoInput = ({ inputValue, onChange, onKeyDown, onAddTodo }) => {
           id="add-todo-input"
           type="text"
           placeholder="新增工作"
-          inputValue={inputValue}
+          value={inputValue}
           onChange={(event) => {
             onChange?.(event.target.value)
           }}
