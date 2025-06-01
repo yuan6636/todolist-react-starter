@@ -115,7 +115,7 @@ const TodoItem = ({ todo, onSave, onDelete, onToggleDone, onChangeMode }) => {
         <button className="btn-reset btn-destroy icon"></button>
       </div>
     </StyledTaskItem>
-  );
-};
+  )
+}
 
 export default TodoItem;
